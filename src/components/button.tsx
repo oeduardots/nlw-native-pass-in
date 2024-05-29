@@ -1,4 +1,9 @@
-import { Text, TouchableOpacity, TouchableOpacityProps, ActivityIndicator } from "react-native"
+import { 
+  Text, 
+  TouchableOpacity, 
+  ActivityIndicator, 
+  TouchableOpacityProps, 
+} from "react-native"
 
 type Props = TouchableOpacityProps & {
   title: string
